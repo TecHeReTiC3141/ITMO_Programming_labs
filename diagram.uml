@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/Admin/IdeaProjects/Lab2/src</OriginalElement>
+  <nodes>
+    <node x="1855.9044117647063" y="1314.0">attacks.BatonPass</node>
+    <node x="-1367.2921869158877" y="1540.7494579439253">poks.Wurmple</node>
+    <node x="550.0" y="1509.0">attacks.HydroPump</node>
+    <node x="1282.4044117647059" y="964.0">ru.ifmo.se.pokemon.StatusMove</node>
+    <node x="377.0" y="1509.0">attacks.Endeavor</node>
+    <node x="-1168.2921869158877" y="1540.7494579439253">poks.Raticate</node>
+    <node x="-973.2921869158877" y="1540.7494579439253">poks.Vibrava</node>
+    <node x="71.06617647058829" y="1299.0">ru.ifmo.se.pokemon.PhysicalMove</node>
+    <node x="-1010.0421869158877" y="672.7494579439252">ru.ifmo.se.pokemon.Pokemon</node>
+    <node x="-147.0" y="1495.0">attacks.ShadowPunch</node>
+    <node x="1314.9044117647059" y="1314.0">attacks.ThunderWave</node>
+    <node x="204.0" y="1509.0">attacks.TripleKick</node>
+    <node x="691.9044117647059" y="1300.0">ru.ifmo.se.pokemon.SpecialMove</node>
+    <node x="1045.9044117647059" y="1314.0">attacks.Barrier</node>
+    <node x="365.75" y="879.0">ru.ifmo.se.pokemon.DamageMove</node>
+    <node x="-592.2921869158877" y="1540.7494579439253">poks.Krookodile</node>
+    <node x="-781.2921869158877" y="1540.7494579439253">poks.Swablu</node>
+    <node x="995.0" y="1495.0">attacks.SonicBoom</node>
+    <node x="723.0" y="1495.0">attacks.ZapCannon</node>
+    <node x="825.5" y="347.0">ru.ifmo.se.pokemon.Move</node>
+    <node x="-380.29218691588767" y="1540.7494579439253">poks.Trapinch</node>
+    <node x="1586.9044117647059" y="1314.0">attacks.SleepTalk</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="poks.Krookodile" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-29.5" />
+      <point x="-496.29218691588767" y="1515.7494579439253" />
+      <point x="-792.0421869158877" y="1515.7494579439253" />
+      <point x="0.0" y="409.0" />
+    </edge>
+    <edge source="attacks.ZapCannon" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-58.0" />
+      <point x="849.0" y="1470.0" />
+      <point x="858.904411764706" y="1470.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="attacks.Endeavor" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="453.5" y="1470.0" />
+      <point x="238.0661764705883" y="1470.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="poks.Wurmple" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-29.5" />
+      <point x="-1277.7921869158877" y="1515.7494579439253" />
+      <point x="-792.0421869158877" y="1515.7494579439253" />
+      <point x="0.0" y="409.0" />
+    </edge>
+    <edge source="attacks.SleepTalk" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="-4.117647058592411E-4" y="-58.0" />
+      <point x="1711.404" y="1292.0" />
+      <point x="1440.904" y="1292.0" />
+      <point x="-4.117647058592411E-4" y="100.0" />
+    </edge>
+    <edge source="attacks.ThunderWave" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="-4.117647058592411E-4" y="-58.0" />
+      <point x="-4.117647058592411E-4" y="100.0" />
+    </edge>
+    <edge source="attacks.Barrier" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="-4.117647058592411E-4" y="-58.0" />
+      <point x="1170.404" y="1292.0" />
+      <point x="1440.904" y="1292.0" />
+      <point x="-4.117647058592411E-4" y="100.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.StatusMove" target="ru.ifmo.se.pokemon.Move" relationship="GENERALIZATION">
+      <point x="-158.5" y="-0.0" />
+      <point x="1006.0" y="1064.0" />
+      <point x="15.0" y="241.0" />
+    </edge>
+    <edge source="poks.Trapinch" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-29.5" />
+      <point x="-290.29218691588767" y="1515.7494579439253" />
+      <point x="-792.0421869158877" y="1515.7494579439253" />
+      <point x="0.0" y="409.0" />
+    </edge>
+    <edge source="attacks.SonicBoom" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-58.0" />
+      <point x="1121.0" y="1470.0" />
+      <point x="858.904411764706" y="1470.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="attacks.ShadowPunch" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-58.0" />
+      <point x="18.5" y="1470.0" />
+      <point x="238.0661764705883" y="1470.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="poks.Raticate" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-29.5" />
+      <point x="-1080.7921869158877" y="1515.7494579439253" />
+      <point x="-792.0421869158877" y="1515.7494579439253" />
+      <point x="0.0" y="409.0" />
+    </edge>
+    <edge source="poks.Vibrava" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-29.5" />
+      <point x="-887.2921869158877" y="1515.7494579439253" />
+      <point x="-792.0421869158877" y="1515.7494579439253" />
+      <point x="0.0" y="409.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.SpecialMove" target="ru.ifmo.se.pokemon.DamageMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-72.0" />
+      <point x="858.904411764706" y="1274.0" />
+      <point x="564.75" y="1274.0" />
+      <point x="0.0" y="185.0" />
+    </edge>
+    <edge source="attacks.HydroPump" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="626.5" y="1470.0" />
+      <point x="858.904411764706" y="1470.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.DamageMove" target="ru.ifmo.se.pokemon.Move" relationship="GENERALIZATION">
+      <point x="0.0" y="-185.0" />
+      <point x="564.75" y="854.0" />
+      <point x="991.0" y="854.0" />
+      <point x="0.0" y="241.0" />
+    </edge>
+    <edge source="poks.Swablu" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-29.5" />
+      <point x="-696.7921869158877" y="1515.7494579439253" />
+      <point x="-792.0421869158877" y="1515.7494579439253" />
+      <point x="0.0" y="409.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.PhysicalMove" target="ru.ifmo.se.pokemon.DamageMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="238.0661764705883" y="1274.0" />
+      <point x="564.75" y="1274.0" />
+      <point x="0.0" y="185.0" />
+    </edge>
+    <edge source="attacks.BatonPass" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="-4.117647063139884E-4" y="-58.0" />
+      <point x="1980.404" y="1292.0" />
+      <point x="1440.904" y="1292.0" />
+      <point x="-4.117647058592411E-4" y="100.0" />
+    </edge>
+    <edge source="attacks.TripleKick" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="280.5" y="1470.0" />
+      <point x="238.0661764705883" y="1470.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.44464760638297873" showDependencies="false" x="194.3679252336442" y="1060.711252336449" />
+  <SelectedNodes>
+    <node>poks.Raticate</node>
+    <node>poks.Vibrava</node>
+    <node>poks.Swablu</node>
+    <node>ru.ifmo.se.pokemon.Pokemon</node>
+    <node>poks.Krookodile</node>
+    <node>poks.Trapinch</node>
+    <node>poks.Wurmple</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
