@@ -11,4 +11,9 @@ public class ZapCannon extends SpecialMove {
     protected void applyOppEffects(Pokemon pokemon) {
         Effect.paralyze(pokemon);
     }
+
+    @Override
+    protected String describe() {
+        return "стреляет из пушки";
+    }
 }

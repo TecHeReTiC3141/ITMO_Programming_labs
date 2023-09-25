@@ -2,7 +2,8 @@ package poks;
 
 import attacks.ShadowPunch;
 import attacks.ThunderWave;
-import ru.ifmo.se.pokemon.*;
+import ru.ifmo.se.pokemon.Pokemon;
+import ru.ifmo.se.pokemon.Type;
 
 public class Krookodile extends Pokemon {
     public Krookodile(String name, int level) {

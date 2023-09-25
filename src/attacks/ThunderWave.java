@@ -12,4 +12,9 @@ public class ThunderWave extends StatusMove {
     protected void applyOppEffects(Pokemon pokemon) {
        Effect.paralyze(pokemon);
     }
+
+    @Override
+    protected String describe() {
+        return "делает ураган";
+    }
 }

@@ -14,4 +14,9 @@ public class ShadowPunch extends PhysicalMove {
                                     Pokemon def) {
         return true;
     }
+    @Override
+    protected String describe() {
+        return "делает теневой удар";
+    }
+
 }

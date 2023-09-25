@@ -12,4 +12,9 @@ public class SonicBoom extends SpecialMove {
     protected void applyOppEffects(Pokemon pokemon) {
         pokemon.setMod(Stat.HP, 20);
     }
+
+    @Override
+    protected String describe() {
+        return "быстро взрывается";
+    }
 }

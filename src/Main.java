@@ -2,13 +2,7 @@ import ru.ifmo.se.pokemon.*;
 
 import java.util.Arrays;
 
-import poks.Wurmple;
-import poks.Swablu;
-import poks.Raticate;
-import poks.Krookodile;
-import poks.Trapinch;
-import poks.Vibrava;
-
+import poks.*;
 
 public class Main {
     public static void main(String[] args) {

@@ -13,4 +13,9 @@ public class Barrier extends StatusMove {
         pokemon.setMod(Stat.DEFENSE,
                 (int) pokemon.getStat(Stat.DEFENSE) + 2);
     }
+
+    @Override
+    protected String describe() {
+        return "создает барьер";
+    }
 }
