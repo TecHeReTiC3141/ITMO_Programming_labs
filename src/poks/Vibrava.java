@@ -9,7 +9,7 @@ import ru.ifmo.se.pokemon.*;
 public class Vibrava extends Pokemon {
     public Vibrava(String name, int level) {
         super(name, level);
-        this.setType(new Type[]{ Type.GROUND, Type.DRAGON});
+        this.setType(Type.GROUND, Type.DRAGON);
         this.setStats(
                 50, 70, 50,50, 50,70
         );

@@ -8,7 +8,7 @@ import ru.ifmo.se.pokemon.Type;
 public class Krookodile extends Pokemon {
     public Krookodile(String name, int level) {
         super(name, level);
-        this.setType(new Type[]{Type.DARK, Type.GROUND});
+        this.setType(Type.DARK, Type.GROUND);
         this.setStats(
                 95, 117, 80,65,70,92
         );

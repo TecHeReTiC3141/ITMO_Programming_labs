@@ -1,19 +1,17 @@
 import ru.ifmo.se.pokemon.*;
 
-import java.util.Arrays;
-
 import poks.*;
 
 public class Main {
     public static void main(String[] args) {
         Battle b = new Battle();
-        Pokemon ally1 = new Wurmple("Вурмпле", 5);
-        Pokemon ally2 = new Swablu("Сваблю", 8);
-        Pokemon ally3 = new Raticate("Батиката", 6);
+        Wurmple ally1 = new Wurmple("Вурмпле", 5);
+        Swablu ally2 = new Swablu("Сваблю", 8);
+        Raticate ally3 = new Raticate("Батиката", 6);
 
-        Pokemon foe1 = new Krookodile("Крукудил", 4);
-        Pokemon foe2 = new Trapinch("Трапинч", 9);
-        Pokemon foe3 = new Vibrava("Вибрара", 6);
+        Krookodile foe1 = new Krookodile("Крукудил", 4);
+        Trapinch foe2 = new Trapinch("Трапинч", 9);
+        Vibrava foe3 = new Vibrava("Вибрара", 6);
         b.addAlly(ally1);
         b.addAlly(ally2);
         b.addAlly(ally3);

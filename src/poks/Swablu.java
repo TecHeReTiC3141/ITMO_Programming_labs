@@ -9,7 +9,7 @@ import ru.ifmo.se.pokemon.*;
 public class Swablu extends Pokemon {
     public Swablu(String name, int level) {
         super(name, level);
-        this.setType(new Type[]{Type.FLYING, Type.NORMAL});
+        this.setType(Type.FLYING, Type.NORMAL);
         this.setStats(
                 45, 40, 60,40,75,50
         );
