@@ -1,4 +1,4 @@
-package attacks;
+package scripts.attacks;
 
 import ru.ifmo.se.pokemon.*;
 public class Endeavor extends PhysicalMove {

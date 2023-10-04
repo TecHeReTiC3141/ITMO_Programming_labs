@@ -1,9 +1,9 @@
-package poks;
+package scripts.poks;
 
-import attacks.ShadowPunch;
-import attacks.SonicBoom;
-import attacks.ThunderWave;
-import attacks.ZapCannon;
+import scripts.attacks.ShadowPunch;
+import scripts.attacks.SonicBoom;
+import scripts.attacks.ThunderWave;
+import scripts.attacks.ZapCannon;
 import ru.ifmo.se.pokemon.*;
 
 public class Vibrava extends Pokemon {

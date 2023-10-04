@@ -1,11 +1,11 @@
-package poks;
+package scripts.poks;
 
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
-import attacks.TripleKick;
-import attacks.SleepTalk;
-import attacks.Endeavor;
-import attacks.BatonPass;
+import scripts.attacks.BatonPass;
+import scripts.attacks.Endeavor;
+import scripts.attacks.SleepTalk;
+import scripts.attacks.TripleKick;
 
 public class Wurmple extends Pokemon {
 

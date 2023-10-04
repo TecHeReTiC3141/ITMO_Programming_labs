@@ -1,12 +1,14 @@
-import ru.ifmo.se.pokemon.*;
+package scripts;
 
-import poks.*;
+import ru.ifmo.se.pokemon.*;
+import scripts.poks.*;
+
 
 public class Main {
     public static void main(String[] args) {
         Battle b = new Battle();
         Wurmple ally1 = new Wurmple("Вурмпле", 5);
-        Swablu ally2 = new Swablu("Сваблю", 8);
+          ally2 = new Swablu("Сваблю", 8);
         Raticate ally3 = new Raticate("Батиката", 6);
 
         Krookodile foe1 = new Krookodile("Крукудил", 4);

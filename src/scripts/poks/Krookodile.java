@@ -1,7 +1,7 @@
-package poks;
+package scripts.poks;
 
-import attacks.ShadowPunch;
-import attacks.ThunderWave;
+import scripts.attacks.ShadowPunch;
+import scripts.attacks.ThunderWave;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

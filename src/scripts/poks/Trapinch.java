@@ -1,8 +1,7 @@
-package poks;
+package scripts.poks;
 
-import attacks.ShadowPunch;
-import attacks.SonicBoom;
-import attacks.ThunderWave;
+import scripts.attacks.ShadowPunch;
+import scripts.attacks.ThunderWave;
 import ru.ifmo.se.pokemon.*;
 
 public class Trapinch extends Pokemon {

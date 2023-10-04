@@ -1,9 +1,9 @@
-package poks;
+package scripts.poks;
 
 
-import attacks.TripleKick;
-import attacks.ShadowPunch;
-import attacks.HydroPump;
+import scripts.attacks.TripleKick;
+import scripts.attacks.ShadowPunch;
+import scripts.attacks.HydroPump;
 import ru.ifmo.se.pokemon.*;
 
 public class Swablu extends Pokemon {
