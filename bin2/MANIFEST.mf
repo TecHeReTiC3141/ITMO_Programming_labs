@@ -1,4 +1,0 @@
-Main-Class: scripts.Main
-Class-Path: Pokemon.jar
-Manifest-Version: 1.0
-
